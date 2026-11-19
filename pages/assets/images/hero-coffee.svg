@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="KINETIC LAB 高對比手沖與濃縮咖啡萃取實驗室數據圖">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#20252C" stroke-width="1" />
+    </pattern>
+    <linearGradient id="streamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#A2A8B2" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#555E6C" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0A0C0E" />
+  <rect width="800" height="600" fill="url(#grid)" />
+
+  <!-- Outer Technical Frame -->
+  <rect x="20" y="20" width="760" height="560" fill="none" stroke="#3A4250" stroke-width="1" />
+  <line x1="20" y1="60" x2="780" y2="60" stroke="#242932" stroke-width="1" />
+  <line x1="20" y1="540" x2="780" y2="540" stroke="#242932" stroke-width="1" />
+
+  <!-- Header Technical Data -->
+  <text x="36" y="46" font-family="'Space Mono', monospace" font-size="12" fill="#8C96A5" letter-spacing="2">EXTRACTION TELEMETRY // RIG-01</text>
+  <text x="560" y="46" font-family="'Space Mono', monospace" font-size="12" fill="#5AF0A4" letter-spacing="1">STATUS: OPTIMAL [93.5°C / 9.2 BAR]</text>
+
+  <!-- Crosshair Indicators -->
+  <g stroke="#8C96A5" stroke-width="1">
+    <path d="M 15 20 L 25 20 M 20 15 L 20 25" />
+    <path d="M 775 20 L 785 20 M 780 15 L 780 25" />
+    <path d="M 15 580 L 25 580 M 20 575 L 20 585" />
+    <path d="M 775 580 L 785 580 M 780 575 L 780 585" />
+  </g>
+
+  <!-- Left: Dripper & Server Blueprint Silhouette -->
+  <g transform="translate(180, 110)">
+    <!-- Dripper Geometry -->
+    <polygon points="120,40 280,40 220,180 180,180" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <line x1="100" y1="40" x2="300" y2="40" stroke="#FFFFFF" stroke-width="2" />
+    
+    <!-- Filter Ribs -->
+    <line x1="140" y1="40" x2="190" y2="180" stroke="#3A4250" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="170" y1="40" x2="195" y2="180" stroke="#3A4250" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="200" y1="40" x2="200" y2="180" stroke="#3A4250" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="230" y1="40" x2="205" y2="180" stroke="#3A4250" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="260" y1="40" x2="210" y2="180" stroke="#3A4250" stroke-width="1" stroke-dasharray="4 4" />
+
+    <!-- Coffee Bed Level -->
+    <path d="M 148 100 Q 200 115 252 100" fill="none" stroke="#D4D8DD" stroke-width="1.5" />
+    <text x="260" y="104" font-family="'Space Mono', monospace" font-size="10" fill="#8C96A5">COFFEE BED 16.0g</text>
+
+    <!-- Extraction Stream Flow -->
+    <line x1="200" y1="180" x2="200" y2="280" stroke="url(#streamGrad)" stroke-width="3" />
+    <circle cx="200" cy="285" r="3" fill="#FFFFFF" />
+
+    <!-- Server Geometry (Carafe) -->
+    <path d="M 170 240 L 230 240 L 270 360 L 130 360 Z" fill="none" stroke="#FFFFFF" stroke-width="1.5" />
+    <line x1="160" y1="240" x2="240" y2="240" stroke="#3A4250" stroke-width="1" />
+    <!-- Liquid Level in Carafe -->
+    <path d="M 145 320 L 255 320" stroke="#8C96A5" stroke-width="1.5" stroke-dasharray="3 3" />
+    <text x="262" y="324" font-family="'Space Mono', monospace" font-size="10" fill="#5AF0A4">YIELD: 240ml</text>
+
+    <!-- Lab Stand Base & Scale -->
+    <rect x="80" y="370" width="240" height="20" fill="#14171C" stroke="#3A4250" stroke-width="1" />
+    <text x="140" y="384" font-family="'Space Mono', monospace" font-size="10" fill="#D4D8DD">PRECISION SCALE: 0.1g</text>
+  </g>
+
+  <!-- Right: Real-Time Flow & Temperature Curves -->
+  <g transform="translate(520, 140)">
+    <!-- Curve Panel Box -->
+    <rect x="0" y="0" width="220" height="150" fill="#14171C" stroke="#242932" stroke-width="1" />
+    <text x="14" y="24" font-family="'Space Mono', monospace" font-size="11" fill="#FFFFFF">EXTRACTION CURVE</text>
+    <text x="14" y="40" font-family="'Space Mono', monospace" font-size="10" fill="#8C96A5">RoR 8.5 / EY 20.8%</text>
+
+    <!-- Coordinate Axis -->
+    <line x1="20" y1="130" x2="200" y2="130" stroke="#3A4250" stroke-width="1" />
+    <line x1="20" y1="50" x2="20" y2="130" stroke="#3A4250" stroke-width="1" />
+
+    <!-- Wave/Curve Path -->
+    <path d="M 20 120 Q 50 115 80 80 T 140 70 T 200 65" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <path d="M 20 125 Q 70 120 120 95 T 200 90" fill="none" stroke="#5AF0A4" stroke-width="1.5" stroke-dasharray="2 2" />
+
+    <!-- Metrics Labels -->
+    <circle cx="80" cy="80" r="4" fill="#FFFFFF" />
+    <text x="90" y="78" font-family="'Space Mono', monospace" font-size="9" fill="#D4D8DD">BLOOM 35s</text>
+
+    <!-- Data Table Box Below -->
+    <rect x="0" y="170" width="220" height="180" fill="#14171C" stroke="#242932" stroke-width="1" />
+    <text x="14" y="194" font-family="'Space Mono', monospace" font-size="11" fill="#FFFFFF">TARGET METRICS</text>
+    
+    <line x1="14" y1="206" x2="206" y2="206" stroke="#242932" stroke-width="1" />
+    
+    <text x="14" y="228" font-family="'Space Mono', monospace" font-size="10" fill="#8C96A5">WATER TEMP:</text>
+    <text x="150" y="228" font-family="'Space Mono', monospace" font-size="10" fill="#FFFFFF">93.5 °C</text>
+
+    <text x="14" y="254" font-family="'Space Mono', monospace" font-size="10" fill="#8C96A5">PRESSURE:</text>
+    <text x="150" y="254" font-family="'Space Mono', monospace" font-size="10" fill="#FFFFFF">9.2 BAR</text>
+
+    <text x="14" y="280" font-family="'Space Mono', monospace" font-size="10" fill="#8C96A5">RATIO:</text>
+    <text x="150" y="280" font-family="'Space Mono', monospace" font-size="10" fill="#FFFFFF">1:15.5</text>
+
+    <text x="14" y="306" font-family="'Space Mono', monospace" font-size="10" fill="#8C96A5">TDS VALUE:</text>
+    <text x="150" y="306" font-family="'Space Mono', monospace" font-size="10" fill="#FFFFFF">1.42 %</text>
+
+    <text x="14" y="332" font-family="'Space Mono', monospace" font-size="10" fill="#8C96A5">TIME LIMIT:</text>
+    <text x="150" y="332" font-family="'Space Mono', monospace" font-size="10" fill="#5AF0A4">90 SEC</text>
+  </g>
+
+  <!-- Bottom Technical Footer -->
+  <text x="36" y="562" font-family="'Space Mono', monospace" font-size="11" fill="#555E6C">KINETIC LAB SPEC // ARCHIVE ID: KL-2026-N11</text>
+  <text x="580" y="562" font-family="'Space Mono', monospace" font-size="11" fill="#8C96A5">COLD INDUSTRIAL ARCHITECTURE</text>
+</svg>
+

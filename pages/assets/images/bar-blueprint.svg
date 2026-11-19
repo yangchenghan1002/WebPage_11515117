@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="KINETIC LAB 快閃外帶與立飲吧台空間架構藍圖">
+  <defs>
+    <pattern id="grid-blueprint" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1A1F26" stroke-width="0.8" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="450" fill="#090B0E" />
+  <rect width="800" height="450" fill="url(#grid-blueprint)" />
+  <rect x="20" y="20" width="760" height="410" fill="none" stroke="#363E4D" stroke-width="1" />
+
+  <!-- Technical Title Header -->
+  <text x="40" y="52" font-family="'Space Mono', monospace" font-size="12" fill="#FFFFFF" letter-spacing="2">ARCHITECTURAL BLUEPRINT // STAND-UP BAR PROTOCOL</text>
+  <text x="560" y="52" font-family="'Space Mono', monospace" font-size="11" fill="#5AF0A4">SCALE 1:50 // POP-UP ACCESS</text>
+  <line x1="20" y1="68" x2="780" y2="68" stroke="#242932" stroke-width="1" />
+
+  <!-- Blueprint Floor Plan Outline -->
+  <g transform="translate(60, 90)">
+    <!-- Boundary Walls -->
+    <rect x="0" y="0" width="680" height="280" fill="#12161C" stroke="#8C96A5" stroke-width="1.5" />
+    
+    <!-- Service Counter Area -->
+    <rect x="60" y="40" width="560" height="70" fill="#1A1F27" stroke="#FFFFFF" stroke-width="1.5" />
+    <text x="80" y="80" font-family="'Space Mono', monospace" font-size="12" fill="#FFFFFF">MAIN EXTRACTION COUNTER [3 × EK43S / 2 × SYNTHESIS GROUP]</text>
+
+    <!-- Zone Division -->
+    <line x1="220" y1="40" x2="220" y2="110" stroke="#3A4250" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="460" y1="40" x2="460" y2="110" stroke="#3A4250" stroke-width="1" stroke-dasharray="4 4" />
+    <text x="80" y="100" font-family="'Space Mono', monospace" font-size="10" fill="#8C96A5">ZONE A: ORDER/RFID</text>
+    <text x="240" y="100" font-family="'Space Mono', monospace" font-size="10" fill="#8C96A5">ZONE B: EXTRACTION</text>
+    <text x="480" y="100" font-family="'Space Mono', monospace" font-size="10" fill="#8C96A5">ZONE C: 90s DISPATCH</text>
+
+    <!-- Express Standing Pods (立飲區) -->
+    <rect x="80" y="170" width="120" height="60" fill="#14171C" stroke="#D4D8DD" stroke-width="1" />
+    <text x="96" y="200" font-family="'Space Mono', monospace" font-size="10" fill="#FFFFFF">POD 01 (STAND)</text>
+    <text x="96" y="216" font-family="'Space Mono', monospace" font-size="9" fill="#5AF0A4">MAX 3 GUESTS</text>
+
+    <rect x="280" y="170" width="120" height="60" fill="#14171C" stroke="#D4D8DD" stroke-width="1" />
+    <text x="296" y="200" font-family="'Space Mono', monospace" font-size="10" fill="#FFFFFF">POD 02 (STAND)</text>
+    <text x="296" y="216" font-family="'Space Mono', monospace" font-size="9" fill="#5AF0A4">MAX 3 GUESTS</text>
+
+    <rect x="480" y="170" width="120" height="60" fill="#14171C" stroke="#D4D8DD" stroke-width="1" />
+    <text x="496" y="200" font-family="'Space Mono', monospace" font-size="10" fill="#FFFFFF">POD 03 (STAND)</text>
+    <text x="496" y="216" font-family="'Space Mono', monospace" font-size="9" fill="#5AF0A4">MAX 3 GUESTS</text>
+
+    <!-- Pedestrian Traffic Arrows -->
+    <path d="M 30 140 L 650 140" stroke="#3A4250" stroke-width="1" stroke-dasharray="6 6" />
+    <text x="280" y="135" font-family="'Space Mono', monospace" font-size="9" fill="#8C96A5">ONE-WAY RAPID TRANSIT FLOW // 90s CYCLE</text>
+  </g>
+
+  <!-- Bottom Blueprint Metadata -->
+  <text x="40" y="412" font-family="'Space Mono', monospace" font-size="11" fill="#555E6C">KINETIC STAND ARCHITECTURE // ZERO SEATING DESIGN // STRICT INDUSTRIAL SPEC</text>
+</svg>
+

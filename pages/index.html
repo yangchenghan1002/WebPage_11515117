@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KINETIC LAB // 黑流 — 現代極簡冷色調工業風咖啡館。用數據定義你的每日清醒，專注於海拔、烘焙曲線與毫米級的水溫控制。">
+  <title>KINETIC LAB // 黑流 — 現代極簡風格咖啡館</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+  <!-- ================= 頂部導覽列 (Site Header) ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- 品牌 Logo (點擊回首頁) -->
+      <a href="index.html" class="brand-logo" aria-label="KINETIC LAB 首頁">
+        <span class="brand-symbol">K</span>
+        <span class="brand-text">KINETIC LAB <span class="slash">//</span> <span class="sub">黑流</span></span>
+      </a>
+
+      <!-- 電腦版與手機版選單 -->
+      <nav class="nav-menu" id="navMenu" aria-label="網站主要導覽">
+        <a href="index.html" class="nav-link active" aria-current="page">
+          <span class="nav-tag">[01]</span>
+          <span>首頁 (HOME)</span>
+        </a>
+        <a href="about.html" class="nav-link">
+          <span class="nav-tag">[02]</span>
+          <span>豆單與風味 (BEANS)</span>
+        </a>
+        <a href="contact.html" class="nav-link">
+          <span class="nav-tag">[03]</span>
+          <span>門市與外帶 (ACCESS)</span>
+        </a>
+      </nav>
+
+      <!-- 手機版漢堡開關 -->
+      <button class="menu-toggle" id="menuToggle" aria-label="切換導覽選單" aria-expanded="false" aria-controls="navMenu">
+        <span class="menu-toggle-line"></span>
+        <span class="menu-toggle-line"></span>
+        <span class="menu-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= 主要內容區 (Main Content) ================= -->
+  <main>
+    <!-- 主視覺區 (Hero Section) -->
+    <section class="hero-section" aria-labelledby="heroTitle">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- 左欄文案 -->
+          <div class="hero-content">
+            <div class="hero-meta-badge">
+              <span class="status-dot"></span>
+              <span>CALIBRATED LAB PROTOCOL // 2026 ARCHIVE</span>
+            </div>
+            <h1 class="hero-title" id="heroTitle">
+              用數據定義你的<br>每日清醒。
+            </h1>
+            <p class="hero-subtitle">
+              摒棄繁複裝飾，專注於海拔、烘焙曲線與毫米級的水溫控制。以科學實驗室的嚴密態度萃取每一滴純黑動能。
+            </p>
+            <div class="hero-cta-group">
+              <a href="about.html" class="btn btn-primary">
+                <span>探索本季豆單</span>
+                <span class="mono">→</span>
+              </a>
+              <a href="contact.html" class="btn">
+                <span>查看外帶據點</span>
+                <span class="mono">↗</span>
+              </a>
+            </div>
+
+            <!-- 實時硬體參數預覽列 -->
+            <div class="hero-metrics-bar">
+              <div class="metric-item">
+                <span class="metric-label">PRESSURE / 壓力</span>
+                <span class="metric-value">9.2 BAR</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-label">WATER TEMP / 水溫</span>
+                <span class="metric-value">93.5 °C</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-label">TIME LIMIT / 外帶</span>
+                <span class="metric-value">90 SEC</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 右欄視覺圖形 (高對比手沖與濃縮萃取瞬間圖) -->
+          <div class="hero-visual">
+            <div class="hero-visual-frame">
+              <div class="hero-visual-header">
+                <span>FIGURE 01.1 // SYSTEM VISUALIZATION</span>
+                <span>RIG: LAB-X1</span>
+              </div>
+              <div class="hero-visual-content">
+                <img src="assets/images/hero-coffee.svg" alt="KINETIC LAB 高對比手沖濾杯與濃縮咖啡萃取實驗室數據圖" width="800" height="600">
+              </div>
+              <div class="hero-visual-footer">
+                <span>SENSOR CALIBRATION: OK</span>
+                <span>TDS TOLERANCE: ±0.03%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 核心技術區塊 (三欄網格，取代原版特色) -->
+    <section class="section-block" aria-labelledby="coreTechTitle">
+      <div class="container">
+        <div class="section-block-header">
+          <div class="section-meta">CORE PROTOCOL // 核心技術</div>
+          <h2 class="section-title" id="coreTechTitle">三大實驗室數據核心</h2>
+          <p class="section-desc">
+            將不可見的感官體驗轉化為公開的精確數據指標，消除風味的不確定性，確保都會日常的純粹清醒體驗。
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <!-- 01 單一莊園溯源 -->
+          <article class="data-card">
+            <span class="data-card-number">PROTOCOL // 01</span>
+            <h3 class="data-card-title">單一莊園溯源</h3>
+            <p class="data-card-text">
+              公開每支豆子的海拔高度、微型氣候、土壤成分與處理法數據。完整記錄生豆含水率與密度，從源頭鎖定純淨基底。
+            </p>
+          </article>
+
+          <!-- 02 曲線精準烘焙 -->
+          <article class="data-card">
+            <span class="data-card-number">PROTOCOL // 02</span>
+            <h3 class="data-card-title">曲線精準烘焙</h3>
+            <p class="data-card-text">
+              電腦全時監控溫升率（RoR），以精密曲線鎖定最純淨的果酸與甜感，隔絕雜味產生，精準呈現產區風土特質。
+            </p>
+          </article>
+
+          <!-- 03 90秒極速外帶 -->
+          <article class="data-card">
+            <span class="data-card-number">PROTOCOL // 03</span>
+            <h3 class="data-card-title">90秒極速外帶</h3>
+            <p class="data-card-text">
+              專為都會生活節奏設計的無座位立飲與外帶系統。標準化研磨出杯工作流，90 秒內將高壓萃取風味完整交付。
+            </p>
+          </article>
+        </div>
+
+        <!-- 主打配方豆數據預覽 -->
+        <div class="telemetry-box" aria-labelledby="formulaTitle">
+          <div class="telemetry-header">
+            <div>
+              <div class="section-meta" style="margin-bottom:6px;">SIGNATURE FORMULA // 主打配方</div>
+              <h3 class="telemetry-title" id="formulaTitle">FORMULA-01 // DARK FLOW 黑流配方</h3>
+            </div>
+            <a href="about.html" class="btn" style="padding:8px 18px;font-size:12px;">查看完整豆單檔案 →</a>
+          </div>
+
+          <div class="telemetry-grid">
+            <div class="telemetry-cell">
+              <div class="telemetry-key">EXTRACTION PRESSURE</div>
+              <div class="telemetry-val">9.2 BAR</div>
+            </div>
+            <div class="telemetry-cell">
+              <div class="telemetry-key">WATER TEMP</div>
+              <div class="telemetry-val">93.5 °C</div>
+            </div>
+            <div class="telemetry-cell">
+              <div class="telemetry-key">EXTRACTION YIELD (EY)</div>
+              <div class="telemetry-val">20.8 %</div>
+            </div>
+            <div class="telemetry-cell">
+              <div class="telemetry-key">TDS CONCENTRATION</div>
+              <div class="telemetry-val">1.42 %</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= 頁尾 (Site Footer) ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand-wrap">
+          <div class="footer-brand">KINETIC COFFEE LAB // 黑流萃取實驗室</div>
+          <div class="footer-slogan">精準萃取，喚醒感官的純粹動能。</div>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link active">首頁 (HOME)</a></li>
+          <li><a href="about.html" class="footer-link">豆單與風味 (BEANS)</a></li>
+          <li><a href="contact.html" class="footer-link">門市與外帶 (ACCESS)</a></li>
+        </ul>
+        <div class="footer-copy">
+          <span>© 2026 KINETIC COFFEE LAB. ALL RIGHTS RESERVED.</span>
+          <span>STUDENT ID: 11515117</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 共用腳本 -->
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
+

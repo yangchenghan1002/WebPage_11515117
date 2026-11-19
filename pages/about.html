@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KINETIC LAB // 黑流 本季烘焙檔案（ROAST ARCHIVE）。透過科學數據挑選適合你的風味光譜，公開產區、海拔、烘焙度與沖煮參數建議。">
+  <title>豆單與風味 (BEANS) — KINETIC LAB // 黑流</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+  <!-- ================= 頂部導覽列 (Site Header) ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- 品牌 Logo -->
+      <a href="index.html" class="brand-logo" aria-label="KINETIC LAB 首頁">
+        <span class="brand-symbol">K</span>
+        <span class="brand-text">KINETIC LAB <span class="slash">//</span> <span class="sub">黑流</span></span>
+      </a>
+
+      <!-- 電腦版與手機版選單 -->
+      <nav class="nav-menu" id="navMenu" aria-label="網站主要導覽">
+        <a href="index.html" class="nav-link">
+          <span class="nav-tag">[01]</span>
+          <span>首頁 (HOME)</span>
+        </a>
+        <a href="about.html" class="nav-link active" aria-current="page">
+          <span class="nav-tag">[02]</span>
+          <span>豆單與風味 (BEANS)</span>
+        </a>
+        <a href="contact.html" class="nav-link">
+          <span class="nav-tag">[03]</span>
+          <span>門市與外帶 (ACCESS)</span>
+        </a>
+      </nav>
+
+      <!-- 手機版漢堡開關 -->
+      <button class="menu-toggle" id="menuToggle" aria-label="切換導覽選單" aria-expanded="false" aria-controls="navMenu">
+        <span class="menu-toggle-line"></span>
+        <span class="menu-toggle-line"></span>
+        <span class="menu-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= 主要內容區 (Main Content) ================= -->
+  <main>
+    <!-- 頁面標題與簡介區塊 -->
+    <section class="section-block" style="padding-bottom: 48px;" aria-labelledby="archiveTitle">
+      <div class="container">
+        <div class="section-meta">ROAST ARCHIVE // 02</div>
+        <h1 class="section-title" id="archiveTitle">本季烘焙檔案（ROAST ARCHIVE）</h1>
+        <p class="section-desc">
+          透過科學數據挑選適合你的風味光譜。我們將微氣候、海拔高度、處理工藝與溫升速率（RoR）轉化為透明指針，為你建構可預期的純粹風味體驗。
+        </p>
+
+        <!-- 風味光譜向量圖形 -->
+        <div style="margin-top: 40px; border: 1px solid var(--border-medium); background: var(--bg-surface); padding: 12px;">
+          <img src="assets/images/flavor-spectrum.svg" alt="KINETIC LAB 單品豆風味光譜與烘焙曲線分析圖" width="800" height="450">
+        </div>
+      </div>
+    </section>
+
+    <!-- 風味光譜分類（三張數據卡片） -->
+    <section class="section-block" style="background: var(--bg-surface);" aria-labelledby="beansTitle">
+      <div class="container">
+        <div class="section-block-header">
+          <div class="section-meta">SPECTRUM CLASSIFICATION // 風味分類</div>
+          <h2 class="section-title" id="beansTitle">三大烘焙階度與單品豆產區</h2>
+          <p class="section-desc">
+            依照產區特色與密度設定專屬烘焙能量曲線，劃分淺焙、中焙與深焙三大光譜。
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <!-- 卡片 1: 淺焙・花果調 (LIGHT) -->
+          <article class="flavor-card">
+            <div class="flavor-card-header">
+              <span class="roast-badge">LIGHT ROAST</span>
+              <span class="mono text-dim" style="font-size:11px;">AGTRON 78/88</span>
+            </div>
+            <div class="flavor-card-body">
+              <h3 class="bean-name">淺焙・花果調</h3>
+              <div class="bean-origin">衣索比亞 水洗 // GEDEB G1</div>
+              <ul class="bean-meta-list">
+                <li><span>產區莊園</span> <span>歌迪貝 (Gedeb) 產區</span></li>
+                <li><span>生豆海拔</span> <span>1,950m - 2,200m</span></li>
+                <li><span>處理方式</span> <span>傳統低溫水洗 (Washed)</span></li>
+                <li><span>烘焙溫升率</span> <span>RoR 8.5 °C/min</span></li>
+              </ul>
+              <div class="rating-metric">
+                <span>酸度 (ACIDITY)</span>
+                <span class="rating-stars">★★★★☆</span>
+              </div>
+              <div class="rating-metric">
+                <span>醇厚度 (BODY)</span>
+                <span class="rating-stars">★★☆☆☆</span>
+              </div>
+              <div class="flavor-notes-tag">
+                <span class="flavor-chip">茉莉白花</span>
+                <span class="flavor-chip">佛手柑</span>
+                <span class="flavor-chip">水蜜桃酸質</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 卡片 2: 中焙・堅果焦糖 (MEDIUM) -->
+          <article class="flavor-card">
+            <div class="flavor-card-header">
+              <span class="roast-badge">MEDIUM ROAST</span>
+              <span class="mono text-dim" style="font-size:11px;">AGTRON 62/70</span>
+            </div>
+            <div class="flavor-card-body">
+              <h3 class="bean-name">中焙・堅果焦糖</h3>
+              <div class="bean-origin">哥倫比亞 蜜處理 // HUILA</div>
+              <ul class="bean-meta-list">
+                <li><span>產區莊園</span> <span>薇拉 希望莊園 (Huila)</span></li>
+                <li><span>生豆海拔</span> <span>1,650m - 1,800m</span></li>
+                <li><span>處理方式</span> <span>雙重厭氧蜜處理 (Honey)</span></li>
+                <li><span>烘焙溫升率</span> <span>RoR 10.2 °C/min</span></li>
+              </ul>
+              <div class="rating-metric">
+                <span>酸度 (ACIDITY)</span>
+                <span class="rating-stars">★★★☆☆</span>
+              </div>
+              <div class="rating-metric">
+                <span>醇厚度 (BODY)</span>
+                <span class="rating-stars">★★★☆☆</span>
+              </div>
+              <div class="flavor-notes-tag">
+                <span class="flavor-chip">烤榛果</span>
+                <span class="flavor-chip">焦糖太妃</span>
+                <span class="flavor-chip">黑櫻桃醇度</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 卡片 3: 深焙・黑巧煙燻 (DARK) -->
+          <article class="flavor-card">
+            <div class="flavor-card-header">
+              <span class="roast-badge">DARK ROAST</span>
+              <span class="mono text-dim" style="font-size:11px;">AGTRON 45/52</span>
+            </div>
+            <div class="flavor-card-body">
+              <h3 class="bean-name">深焙・黑巧煙燻</h3>
+              <div class="bean-origin">曼特寧 濕剝法 // GAYO ACEH</div>
+              <ul class="bean-meta-list">
+                <li><span>產區莊園</span> <span>蘇門答臘 迦佑高地</span></li>
+                <li><span>生豆海拔</span> <span>1,400m - 1,600m</span></li>
+                <li><span>處理方式</span> <span>傳統濕剝法 (Wet-Hulled)</span></li>
+                <li><span>烘焙溫升率</span> <span>RoR 12.0 °C/min</span></li>
+              </ul>
+              <div class="rating-metric">
+                <span>酸度 (ACIDITY)</span>
+                <span class="rating-stars">★☆☆☆☆</span>
+              </div>
+              <div class="rating-metric">
+                <span>醇厚度 (BODY)</span>
+                <span class="rating-stars">★★★★★</span>
+              </div>
+              <div class="flavor-notes-tag">
+                <span class="flavor-chip">黑巧克力</span>
+                <span class="flavor-chip">雪松煙燻</span>
+                <span class="flavor-chip">重質厚度</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 沖煮參數建議表 (Brewing Protocol Table) -->
+    <section class="section-block" aria-labelledby="protocolTitle">
+      <div class="container">
+        <div class="section-block-header">
+          <div class="section-meta">EXTRACTION PROTOCOL // 實驗室沖煮規範</div>
+          <h2 class="section-title" id="protocolTitle">標準手沖萃取參數矩陣</h2>
+          <p class="section-desc">
+            由實驗室經過反覆折射率檢測確定的黃金萃取區間，建議使用等溫手沖壺與高精度電子秤進行操作。
+          </p>
+        </div>
+
+        <div class="protocol-table-wrap">
+          <table class="protocol-table">
+            <thead>
+              <tr>
+                <th scope="col">參數指標 (PARAMETER)</th>
+                <th scope="col">淺焙・花果調 (LIGHT)</th>
+                <th scope="col">中焙・堅果焦糖 (MEDIUM)</th>
+                <th scope="col">深焙・黑巧煙燻 (DARK)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">建議粉水比 (RATIO)</th>
+                <td>1 : 15.5</td>
+                <td>1 : 15.0</td>
+                <td>1 : 14.0</td>
+              </tr>
+              <tr>
+                <th scope="row">研磨刻度 (MAHLKÖNIG EK43)</th>
+                <td># 8.2 (細中)</td>
+                <td># 8.8 (中等)</td>
+                <td># 9.5 (中粗)</td>
+              </tr>
+              <tr>
+                <th scope="row">標準水溫 (WATER TEMP)</th>
+                <td>93.0 °C</td>
+                <td>91.5 °C</td>
+                <td>88.5 °C</td>
+              </tr>
+              <tr>
+                <th scope="row">悶蒸預浸量與時間 (BLOOM)</th>
+                <td>40ml / 35 秒</td>
+                <td>40ml / 30 秒</td>
+                <td>40ml / 25 秒</td>
+              </tr>
+              <tr>
+                <th scope="row">總萃取時間 (EXTRACTION TIME)</th>
+                <td>02 分 15 秒</td>
+                <td>02 分 05 秒</td>
+                <td>01 分 55 秒</td>
+              </tr>
+              <tr>
+                <th scope="row">預期總萃取量 (TOTAL YIELD)</th>
+                <td>248 ml</td>
+                <td>240 ml</td>
+                <td>252 ml</td>
+              </tr>
+              <tr>
+                <th scope="row">建議品飲溫度 (DRINKING TEMP)</th>
+                <td>62.0 °C - 65.0 °C</td>
+                <td>60.0 °C - 63.0 °C</td>
+                <td>58.0 °C - 62.0 °C</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 底部引導按鈕 (連至 contact.html) -->
+        <div style="margin-top: 48px; text-align: center;">
+          <a href="contact.html" class="btn btn-primary" style="padding: 16px 36px; font-size: 14px;">
+            <span>前往門市品飲</span>
+            <span class="mono">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= 頁尾 (Site Footer) ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand-wrap">
+          <div class="footer-brand">KINETIC COFFEE LAB // 黑流萃取實驗室</div>
+          <div class="footer-slogan">精準萃取，喚醒感官的純粹動能。</div>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link">首頁 (HOME)</a></li>
+          <li><a href="about.html" class="footer-link active">豆單與風味 (BEANS)</a></li>
+          <li><a href="contact.html" class="footer-link">門市與外帶 (ACCESS)</a></li>
+        </ul>
+        <div class="footer-copy">
+          <span>© 2026 KINETIC COFFEE LAB. ALL RIGHTS RESERVED.</span>
+          <span>STUDENT ID: 11515117</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 共用腳本 -->
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
+
